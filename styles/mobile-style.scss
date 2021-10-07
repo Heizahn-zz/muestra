@@ -1,0 +1,95 @@
+@import "./vars.scss";
+
+html{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-size: 62.5%;
+  body{
+    font-family: $font;
+    background-color: $Violet;
+    background-image: url("../img/bg-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    header{
+      margin: 4rem;
+    }
+    .caja1{
+      margin: 4rem 5rem 0 5rem;
+      img{
+        width: 100%;
+      }
+    }
+    .caja2{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 4rem 6rem;
+      .text{
+        font-family: $fontBody;
+        font-weight: 400;
+        .title{
+          text-align: center;
+          color: white;
+          font-size: 2.4rem;
+        }
+        .parrafo{
+          color: white;
+          text-align: center;
+          font-size: 1.8rem;
+        }
+      }
+      .button{
+        margin: 1rem;
+        font-family: $fontBody;
+        font-size: 1.6rem;
+        font-weight: 400;
+        width: 20rem;
+        height: 4rem;
+        border-radius: 2rem;
+        border-style: none;
+        box-shadow:rgb(41, 39, 39) 5px 5px 15px;
+      }
+      .button:hover{
+        cursor: pointer;
+        background-color: $SoftMagenta;
+      }
+    }
+    footer{
+      display: flex;
+      justify-content: center;
+      margin: 0 .2rem;
+      padding: .2rem;
+      .footer{
+        width: 70%;
+        display: flex;
+        justify-content: space-around;
+        a{
+          .fa-facebook-f{
+            cursor: pointer;
+            color: #fff;
+            font-size: 38px;
+          }
+          .fa-facebook-f:hover{
+            color: $SoftMagenta;
+          }
+          .fa-twitter{
+            cursor: pointer;
+            color: #fff;
+            font-size: 38px;
+          }
+          .fa-twitter:hover{
+            color: $SoftMagenta;
+          }
+          .imgInstagram{
+            cursor: pointer;
+            color: #fff!important;
+          }
+          .imgInstagram:hover{
+            color: $SoftMagenta!important;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,130 @@
+/*Primary*/
+/*Tipografia*/
+/*Headings*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+/*body*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+html {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: 0;
+          box-sizing: 0;
+  font-size: 62.5%;
+}
+
+html body {
+  font-family: "Poppins";
+  background-color: #674baf;
+  background-image: url("../img/bg-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+html body header {
+  margin: 4rem;
+}
+
+html body .caja1 {
+  margin: 4rem 5rem 0 5rem;
+}
+
+html body .caja1 img {
+  width: 100%;
+}
+
+html body .caja2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 4rem 6rem;
+}
+
+html body .caja2 .text {
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+
+html body .caja2 .text .title {
+  text-align: center;
+  color: white;
+  font-size: 2.4rem;
+}
+
+html body .caja2 .text .parrafo {
+  color: white;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+html body .caja2 .button {
+  margin: 1rem;
+  font-family: "Open Sans";
+  font-size: 1.6rem;
+  font-weight: 400;
+  width: 20rem;
+  height: 4rem;
+  border-radius: 2rem;
+  border-style: none;
+  -webkit-box-shadow: #292727 5px 5px 15px;
+          box-shadow: #292727 5px 5px 15px;
+}
+
+html body .caja2 .button:hover {
+  cursor: pointer;
+  background-color: #e882e8;
+}
+
+html body footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 .2rem;
+  padding: .2rem;
+}
+
+html body footer .footer {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+html body footer .footer a .fa-facebook-f {
+  cursor: pointer;
+  color: #fff;
+  font-size: 38px;
+}
+
+html body footer .footer a .fa-facebook-f:hover {
+  color: #e882e8;
+}
+
+html body footer .footer a .fa-twitter {
+  cursor: pointer;
+  color: #fff;
+  font-size: 38px;
+}
+
+html body footer .footer a .fa-twitter:hover {
+  color: #e882e8;
+}
+
+html body footer .footer a .imgInstagram {
+  cursor: pointer;
+  color: #fff !important;
+}
+
+html body footer .footer a .imgInstagram:hover {
+  color: #e882e8 !important;
+}
+/*# sourceMappingURL=mobile-style.css.map */

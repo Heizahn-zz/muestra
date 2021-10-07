@@ -1,0 +1,43 @@
+html{
+  body{
+    background-image: url("../img/bg-desktop.svg");
+    main{
+      display: flex;
+      flex-direction: row;
+      margin: 0;
+      padding: 0;
+      .caja1{
+        margin: 4rem 0 2rem 3rem;
+        width: 50%;
+      }
+      .caja2{
+        margin: 4rem 2rem 0 3rem;
+        width: 50%;
+        .text{
+          .title{
+            text-align: start;
+            margin: 0 2rem;
+            padding: 2.4rem;
+            font-size: 3.6rem;
+          }
+          .parrafo{
+            text-align: start;
+            margin: 0rem 2rem;
+            padding: 2.4rem;
+            font-size: 2.4rem;
+          }
+        }
+      }
+    }
+    footer{
+      display: flex;
+      justify-content: flex-end;
+      .footer{
+        width: 20%;
+        margin-right: 2rem;
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+}

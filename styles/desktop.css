@@ -1,0 +1,60 @@
+html body {
+  background-image: url("../img/bg-desktop.svg");
+}
+
+html body main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+
+html body main .caja1 {
+  margin: 4rem 0 2rem 3rem;
+  width: 50%;
+}
+
+html body main .caja2 {
+  margin: 4rem 2rem 0 3rem;
+  width: 50%;
+}
+
+html body main .caja2 .text .title {
+  text-align: start;
+  margin: 0 2rem;
+  padding: 2.4rem;
+  font-size: 3.6rem;
+}
+
+html body main .caja2 .text .parrafo {
+  text-align: start;
+  margin: 0rem 2rem;
+  padding: 2.4rem;
+  font-size: 2.4rem;
+}
+
+html body footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+html body footer .footer {
+  width: 20%;
+  margin-right: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=desktop.css.map */
